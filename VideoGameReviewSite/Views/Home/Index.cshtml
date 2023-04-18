@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h4 class="display-4">Video Game User Reviews Website</h4>
+    <p>You can view, edit, create, and delete reviews.</p>
+    <p class="text-center">Click Links below to navigate or use the title bar above</p>
+</div>
+<div class="container">
+    <ol class="myOL">
+        <li class="nav-item">
+            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " asp-area="" asp-controller="ProductVideoGame" asp-action="Index">Video Games</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " asp-area="" asp-controller="Review" asp-action="Index">Publishers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </li>
+    </ol>
+</div>

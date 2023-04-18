@@ -1,0 +1,153 @@
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    color: red;
+    border: darkgreen;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    opacity: 1.0;
+    
+}
+
+img {
+    opacity: 1;
+}
+
+nav {
+    background-color: green;
+}
+
+tr {
+    color: red;
+    border: darkred;
+}
+th {
+    color: green;
+    border: darkred;
+}
+
+
+table {
+    color: blue;
+    border: darkgreen;
+}
+td {
+    color: green;
+    flex-grow:1;
+}
+dt {
+    color: red;
+    border: darkgreen;
+}
+h1 {
+    color: red;
+    border: darkgreen;
+    flex-grow: 1;
+}
+h2 {
+    color: blue;
+    border: darkgreen;
+    flex-grow: 1;
+}
+h3 {
+    color: green;
+    border: darkgreen;
+    flex-grow: 1;
+}
+h4 {
+    color: red;
+    border: darkgreen;
+    flex-grow: 1;
+}
+p {
+    font-size:large;
+    color: greenyellow;
+    border: darkred;
+}
+p.text-center {
+    color:greenyellow;
+    border:darkred;
+}
+
+dd {
+    color: green;
+    border: darkred;
+    text-align: center;
+}
+
+div {
+    flex-grow: 1;
+}
+
+text {
+    text-justify: auto;
+    color: blue;
+    border: darkgreen;
+    flex-grow: 1;
+}
+
+dd.Image {
+    border: darkgreen;
+}
+
+div.form-group {
+    color: red;
+    border: darkgreen;
+}
+
+div.row {
+    color: red;
+
+}
+
+div.container {
+    text-align: center;
+    color:gray;
+    
+}
+
+ol.myOL {
+    display: inline-block;
+    text-align: center;
+    color: red;
+
+}
+
+div.container {
+
+
+}
+
+.container {
+    display: flow-root;
+    background-image: url(../images/background3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border: hidden;
+            
+}
+

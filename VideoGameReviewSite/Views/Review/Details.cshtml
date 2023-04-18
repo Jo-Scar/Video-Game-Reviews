@@ -1,0 +1,44 @@
+﻿@model VideoGameReviewSite.Models.ReviewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>List Of Games</h1>
+
+<table class="table">
+    <tbody></tbody>
+    @if(Model.VideoGame.Count() > 0)
+{
+    @foreach(var item in Model.VideoGame)
+    {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td class="align-middle">
+                <img src="@item.Image" alt="@item.Title"
+                style="max-width: 150px">
+            </td>
+        </tr>
+    }
+}
+else
+{
+        <h4>No VideoGame for this publisher</h4>
+}</table>
+@if(Model.VideoGame.Count() > 0)
+{
+    @foreach(var item in Model.VideoGame)
+    {
+            <li>@item.Title</li>
+    }
+}
+else
+{
+    <h4>Bo VideoGame for this publisher</h4>
+}
+<div>
+    
+    <a asp-action="Index">Back to List</a>
+</div>
